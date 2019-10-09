@@ -17,7 +17,7 @@ def get_url(**kwargs):
 
 
 app = dash.Dash()
-
+server = app.server
 species_url = get_url(select='spc_common', group='spc_common', order='spc_common')
 species = pd.read_json(species_url)
 
