@@ -37,7 +37,7 @@ app.layout = html.Div([
                 value='Bronx'
             )
 
-        ], style={'width': '30%', 'float': 'center'}),
+        ], style={'width': '48%', 'float': 'center'}),
 
         html.Div([
             dcc.Dropdown(
