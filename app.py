@@ -5,11 +5,6 @@ from dash.dependencies import Input, Output
 import plotly.graph_objs as go
 import pandas as pd
 
-# 1 duplicate code?
-# 2 change script
-# 3 deploy  https://dash.plot.ly/deployment (extra credit)
-# 4 add ALL in species
-
 
 def get_url(**kwargs):
     url = 'https://data.cityofnewyork.us/resource/nwxe-4ae8.json?'
